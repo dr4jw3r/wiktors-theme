@@ -1,0 +1,14 @@
+@font-face {
+	font-family: 'PinyonScript';
+	src: 	url('../wp-fonts/PinyonScript.woff2') format('woff2'),
+			url('../wp-fonts/PinyonScript.ttf') format('truetype');
+}
+@font-face{
+	font-family: "Roboto Slab";
+	src: url('../wp-fonts/RobotoSlab.ttf') format('truetype');
+}
+@font-face{
+	font-family: "Pacifico";
+	src: 	url('../wp-fonts/Pacifico.woff2') format('woff2'),
+			url('../wp-fonts/Pacifico.ttf') format('truetype');
+}

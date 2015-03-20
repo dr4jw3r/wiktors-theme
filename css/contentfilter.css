@@ -1,0 +1,38 @@
+#bad_word_wrap{
+	border-left: 1px solid #BABABA;
+	margin: 0;
+	padding: 0;
+}
+#bad_word_wrap_overlay{
+	background: url(../images/loading.gif) center center no-repeat rgba(0, 0, 0, .6);
+	display: none;
+	height: 100%;
+	position:absolute;
+	width: 100%;
+}
+#word_list{
+	left: 10px;
+	padding: 0;
+	position: relative;
+}
+.delicon{
+	background: url(../images/delete.png) center center no-repeat;
+	cursor: pointer;
+	float: right;
+	height: 16px;
+	width: 16px;
+}
+.word_wrap{
+	-moz-box-sizing: border-box;
+	border: 1px solid #BABABA;
+	box-sizing: border-box;
+	clear: both;
+	height: 26px;
+	line-height: 16px;
+	margin: 0;
+	padding: 5px 10px;
+	width: 100%;
+}
+.word_wrap:nth-of-type(odd){
+	background: #BABABA;
+}
